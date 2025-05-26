@@ -37,13 +37,12 @@ class ZhangDental(ScriptedLoadableModule):
         # TODO: update with short description of the module and a link to online module documentation
         # _() function marks text as translatable to other languages
         self.parent.helpText = _("""
-This is an example of scripted loadable module bundled in an extension.
-See more information in <a href="https://github.com/organization/projectname#ZhangDental">module documentation</a>.
+This is a slicer plugin for annotating oral teeth
+See more information in <a href="https://github.com/chenzm-git/SlicerZhangDental">module documentation</a>.
 """)
         # TODO: replace with organization, grant and thanks
         self.parent.acknowledgementText = _("""
-This file was originally developed by Jean-Christophe Fillion-Robin, Kitware Inc., Andras Lasso, PerkLab,
-and Steve Pieper, Isomics, Inc. and was partially funded by NIH grant 3P41RR013218-12S1.
+This is a slicer plugin for annotating oral teeth
 """)
 
 
